@@ -1,0 +1,124 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:background="#ffe5e9ff">
+
+    <ToggleButton
+        android:id="@+id/killSwitch"
+        android:background="@drawable/rounded_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/killSwitchButton"
+        android:checked="false"
+        android:longClickable="true"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/txtArduino"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="" />
+
+    <Button
+        android:id="@+id/twelveClock"
+        android:text="@string/forwardButton"
+        android:background="@drawable/rounded_button"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/killSwitch"
+        android:layout_marginBottom="70dp"
+        />
+
+    <Button
+        android:id="@+id/sixClock"
+        android:text="@string/reverseButton"
+        android:background="@drawable/rounded_button"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/killSwitch"
+        android:layout_marginTop="70dp"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/threeClock"
+        android:text="@string/rightButton"
+        android:background="@drawable/rounded_button"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/killSwitch"
+        android:layout_marginLeft="70dp" />
+
+    <Button
+        android:id="@+id/oneClock"
+        android:text="@string/rightForwardButton"
+        android:background="@drawable/rounded_button"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_above="@id/killSwitch"
+        android:layout_toRightOf="@id/killSwitch" />
+
+    <Button
+        android:id="@+id/nineClock"
+        android:text="@string/leftButton"
+        android:background="@drawable/rounded_button"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@id/killSwitch"
+        android:layout_marginRight="70dp" />
+
+    <Button
+        android:id="@+id/elevenClock"
+        android:text="@string/leftForwardButton"
+        android:background="@drawable/rounded_button"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_above="@id/killSwitch"
+        android:layout_toLeftOf="@id/killSwitch" />
+
+    <Button
+        android:id="@+id/sevenClock"
+        android:text="@string/leftReverseButton"
+        android:background="@drawable/rounded_button"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_below="@id/killSwitch"
+        android:layout_toLeftOf="@id/killSwitch" />
+
+    <Button
+        android:id="@+id/fiveClock"
+        android:text="@string/rightReverseButton"
+        android:background="@drawable/rounded_button"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_below="@id/killSwitch"
+        android:layout_toRightOf="@id/killSwitch" />
+
+    <TextView
+        android:id="@+id/appSubtitle"
+        android:text="@string/appSubtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/twelveClock"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/appTitle"
+        android:text="Car Control App"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/appSubtitle" />
+
+</RelativeLayout>
+

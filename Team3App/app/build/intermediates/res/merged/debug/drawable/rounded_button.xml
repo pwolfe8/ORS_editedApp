@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="false">
+        <shape android:shape="oval">
+            <solid android:color="#fa09ad"/>
+            <size
+                android:width="70dp"
+                android:height="70dp"/>
+        </shape>
+    </item>
+    <item android:state_pressed="true">
+        <shape android:shape="oval">
+            <size
+                android:width="70dp"
+                android:height="70dp"/>
+            <solid android:color="#c20586"/>
+        </shape>
+    </item>
+</selector><!-- From: file:/C:/Users/Swacsp/AndroidStudioProjects/Team3App/Team3App/app/src/main/res/drawable/rounded_button.xml -->

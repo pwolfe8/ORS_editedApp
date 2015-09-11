@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/Swacsp/AndroidStudioProjects/Team3App/Team3App/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="appSubtitle">Go! Team 3 Go!</string>
+    <string name="app_name">BToothStuff</string>
+    <string name="btn_OFF">KILL OFF</string>
+    <string name="btn_ON">KILL ON</string>
+    <string name="forwardButton">Forward</string>
+    <string name="killSwitchButton">New ToggleButton</string>
+    <string name="leftButton">Left</string>
+    <string name="leftForwardButton">F. Left</string>
+    <string name="leftReverseButton">R. Left</string>
+    <string name="reverseButton">Reverse</string>
+    <string name="rightButton">Right</string>
+    <string name="rightForwardButton">F. Right</string>
+    <string name="rightReverseButton">R. Right</string>
+    <string name="title">Large Text</string>
+    <string name="title_activity_main">BToothStuff</string>
+    <!-- From: file:/C:/Users/Swacsp/AndroidStudioProjects/Team3App/Team3App/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppTheme" parent="android:Theme.Light"/>
+</resources>
